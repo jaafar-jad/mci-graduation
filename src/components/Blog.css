@@ -1,0 +1,81 @@
+* {
+    box-sizing: border-box;
+  }
+  
+  .ArticleContainer {
+    width:auto;
+    margin: 0 auto;
+    margin-top: 20px;
+  }
+  
+  .AddArticle {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-items: flex-start;
+  }
+  
+  .AddArticle input, .AddArticle textarea {
+    width: 100%;
+    border-radius: 40px;
+    border: 1px solid rgb(5, 7, 74);
+    margin: 5px 0;
+    padding: 5px;
+  }
+  
+  .AddArticle input[type='submit'] {
+    padding: 5px;
+    background-color: rgb(131, 15, 15);
+    border: none;
+    cursor: pointer;
+    color:white;
+  }
+  
+  h2 {
+    text-align:center ;
+  }
+  
+  article {
+    padding: 10px;
+    border: 1px solid rgb(16, 5, 79);
+    margin: 10px auto 20px;
+    width: auto;
+  }
+  
+  article h2 {
+    color: rgb(132, 10, 10);
+    font-size: 20px;
+    margin: 5px 0;
+  }
+  
+  article button {
+    width: auto;
+    margin: 0 5px;
+    border: none;
+    padding: 5px;
+    cursor: pointer;
+  }
+  
+  article .delete {color: red;}
+  article .edit {color:green;}
+  article .cancel {color: orange;}
+
+
+
+
+  .pop-outin{
+    color: rgb(137, 5, 5);
+  }
+
+
+
+
+  .pppostDate{
+
+    font-weight: 'Lora',serif;
+    font-style:italic;
+    font-size: 13px;
+    color: rgb(79, 5, 5);
+    margin-top: 15px;
+    text-align: center;
+  }
